@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center bg-white shadow-black-md p-4 md:px-40 text-blue-700">
+      <header className="flex justify-between items-center bg-white shadow-black-md p-4 md:px-40 text-purple-600">
         <div className="flex items-center">
           <img src={Logo} alt="TechMakeEasy" className="w-10 h-10 object-cover" />
         </div>
