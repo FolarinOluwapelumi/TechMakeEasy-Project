@@ -1,5 +1,6 @@
 import Button from './Button';
 import { motion } from 'framer-motion';
+import chair from '../assets/blue chair.png'
 
 export default function CTA(){
     return(
@@ -32,7 +33,7 @@ export default function CTA(){
             className="w-full max-w-sm lg:max-w-md"
           >
             <img 
-              src="src\assets\blue chair.png"
+              src = {chair}
               alt="Office Chair"
               className="w-full h-full object-contain"
             />
