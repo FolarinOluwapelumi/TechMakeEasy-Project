@@ -19,7 +19,7 @@ export default function CTA(){
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
               href="/lets-build"
-              className="w-fit text-center bg-purple-700 px-6 py-3 font-bold transition-colors duration-300"
+              className="w-fit text-center bg-purple-500 px-6 py-3 font-bold transition-colors duration-300"
             >
               Let's build your ideas
             </Button>
