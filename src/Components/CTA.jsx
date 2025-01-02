@@ -4,7 +4,7 @@ import chair from '../assets/blue chair.png'
 
 export default function CTA(){
     return(
-      <div className="mx-auto lg:py-24 py-10 mb-16 bg-blue-600 px-4 md:px-32">
+      <div className="mx-auto lg:py-24 py-10 mb-16 bg-gradient-to-r from-blue-400 to-purple-700 px-4 md:px-32">
         <div className="flex flex-col lg:flex-row items-center justify-between  ">
           <div className="text-center lg:text-left mb-8 lg:mb-0">
             <motion.h2 
@@ -19,7 +19,7 @@ export default function CTA(){
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
               href="/lets-build"
-              className="w-fit text-center text-black px-6 py-3 font-bold transition-colors duration-300"
+              className="w-fit text-center bg-purple-700 px-6 py-3 font-bold transition-colors duration-300"
             >
               Let's build your ideas
             </Button>

@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import ProjectCard from "./ProjectCard";
 import Project from "../assets/Project.jpg";
+import { motion } from "framer-motion";
 
 
 const ProjectsSection = () => {
@@ -33,14 +34,28 @@ const ProjectsSection = () => {
         >
           View all case studies
         </Button>
-        <div className="flex items-center ">
-        <a
-          href="/book-call"
-          className="hover:text-purple-500 text-blue-500 font-bold"
-        >
-          Book Strategy Call →
-        </a>
-        </div>
+        <motion.div
+            href="/book-call"
+            className="text-gray-700 rounded-lg font-bold 
+              hover:text-purple-500 transition-colors duration-300 flex items-center cursor-pointer"
+            whileHover={{ scale: 1.05, x: 5 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Book Strategy Call
+            <svg
+              className="w-5 h-5 ml-0.5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </motion.div>
       </div>
     </section>
   );

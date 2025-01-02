@@ -91,7 +91,7 @@ const BlogSection = () => {
 
           <motion.div
             href="/suggest-topic"
-            className="text-blue-600  rounded-lg font-bold 
+            className="text-gray-700 rounded-lg font-bold 
               hover:text-purple-500 transition-colors duration-300 flex items-center cursor-pointer"
             whileHover={{ scale: 1.05, x: 5 }}
             whileTap={{ scale: 0.95 }}

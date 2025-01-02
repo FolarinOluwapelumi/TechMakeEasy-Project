@@ -21,17 +21,13 @@ const IndustryCard = ({ iconSrc, title, description, index }) => {
         boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.1)",
         transition: { duration: 0.3 },
       }}
-      className="p-6 border-r-2 border-t-2 border-l-[1px] border-b-2 border-purple-500  border-b-gray-200 bg-white"
+      className="p-6 border-2 border-purple-500 bg-white"
     >
       <motion.div
         className="flex flex-col items-start text-left"
         whileHover="hover"
       >
         <motion.div
-          whileHover={{
-            rotate: 360,
-            transition: { duration: 0.6 },
-          }}
         >
           <div className="w-14 h-14 mb-4">
             <img
