@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCard";
 import Project from "../assets/Project.jpg";
 import { motion } from "framer-motion";
 
-
 const ProjectsSection = () => {
   const projects = [
     {
@@ -27,35 +26,35 @@ const ProjectsSection = () => {
         ))}
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4 justify-start">
+      <div className="flex flex-col sm:flex-row gap-4">
         <Button
           href="/case-studies"
           className="w-fit text-center border-2 border-gray-400 border-l-0 border-r-0 border-t-0"
         >
           View all case studies
         </Button>
-        <motion.div
-            href="/book-call"
-            className="text-gray-700 rounded-lg font-bold 
-              hover:text-purple-500 transition-colors duration-300 flex items-center cursor-pointer"
-            whileHover={{ scale: 1.05, x: 5 }}
-            whileTap={{ scale: 0.95 }}
+        <motion.a
+          href={`mailto:Techmakeeeasy0@gmail.com`}
+          className="text-gray-700 rounded-lg font-bold 
+            hover:text-purple-500 transition-colors duration-300 flex items-center cursor-pointer"
+          whileHover={{ scale: 1.05, x: 5 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          Book Strategy Call
+          <svg
+            className="w-5 h-5 ml-0.5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
-            Book Strategy Call
-            <svg
-              className="w-5 h-5 ml-0.5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </motion.div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </motion.a>
       </div>
     </section>
   );

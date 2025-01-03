@@ -1,4 +1,3 @@
-// ProjectCard.jsx
 import React, { useEffect, useRef, useState } from 'react';
 
 const ProjectCard = ({ image, delay = 0 }) => {

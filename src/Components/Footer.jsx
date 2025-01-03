@@ -25,32 +25,40 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+  
+ // WhatsApp link with your phone number
+ const whatsappLink = "https://wa.me/2347068380789";
+ // Instagram profile link
+ const instagramLink = "https://www.instagram.com/tech_makeslifeeasy";
 
-  return (
-    <footer className="text-white">
-      {/* Footer Links Section */}
-      <div className="bg-gradient-to-r from-blue-400 to-purple-700">
-        <div className="container mx-auto px-4 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Social Links */}
-            <div>
-              <h3 className="text-xl font-bold mb-4">Follow TechMakeEasy</h3>
-              <div className="flex space-x-4 mb-2">
-                <a
-                  href="#"
-                  className="text-white transition-colors cursor-pointer"
-                >
-                  <FaInstagram className="w-6 h-6" />
-                </a>
-                <a
-                  href="#"
-                  className="text-white transition-colors cursor-pointer"
-                >
-                  <FaWhatsapp className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
-
+ return (
+   <footer className="text-white">
+     {/* Footer Links Section */}
+     <div className="bg-gradient-to-r from-blue-400 to-purple-700">
+       <div className="container mx-auto px-4 py-12">
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+           {/* Social Links */}
+           <div>
+             <h3 className="text-xl font-bold mb-4"> See TechMakeEasy</h3>
+             <div className="flex space-x-4 mb-2">
+               <a
+                 href={instagramLink}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-white hover:text-purple-200 transition-colors cursor-pointer"
+               >
+                 <FaInstagram className="w-6 h-6" />
+               </a>
+               <a
+                 href={whatsappLink}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-white hover:text-green-200 transition-colors cursor-pointer"
+               >
+                 <FaWhatsapp className="w-6 h-6" />
+               </a>
+             </div>
+           </div>
             {/* Resources */}
             <div>
               <h3 className="text-xl font-bold mb-4">Resources</h3>
@@ -102,12 +110,12 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6 font-bold">
           <div className="flex flex-col md:flex-row justify-between">
             <p className="text-white text-sm mb-2 md:mb-0 max-w-72">
-              © 2024-2025 TechMakeEasy. All Rights Reserved.
+              © 2024-{new Date().getFullYear()} TechMakeEasy. All Rights Reserved.
             </p>
             <div>
               <a
                 href="#"
-                className="text-gray-600 hover:text-purple-400 transition-colors"
+                className="text-white transition-colors"
               >
                 Privacy Policy
               </a>

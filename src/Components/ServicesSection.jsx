@@ -13,57 +13,57 @@ const ServicesSection = () => {
     {
       iconSrc: softwareIcon,
       title: "Software Development",
-      description: "All you need is an idea. We will help you review, plan and design your ideas to innovative products.",
+      description: "Bring your ideas to life. We help you review, plan, and design innovative software solutions tailored to your needs..",
       buttonText: "Design your product",
-      buttonLink: "#design",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 0
     },
     {
       iconSrc: hardwareIcon,
       title: "Hardware Manufacturing",
-      description: "After your product design, we will help you develop and launch your web and mobile products. No stress.",
-      buttonText: "Build your apps",
-      buttonLink: "#build",
+      description: "Turn your concepts into reality. From design to launch, we support the development of cutting-edge hardware solutions for your projects.",
+      buttonText: "Build your hardware",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 0.2
     },
     {
       iconSrc: internetIcon,
       title: "Internet Services",
-      description: "We help you to focus on your business and marketing. We make sure your infrastructure is running smoothly",
-      buttonText: "Manage your services",
-      buttonLink: "#manage",
+      description: "Stay connected with our reliable internet solutions. We ensure seamless integration and robust support for your online infrastructure",
+      buttonText: "Explore services",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 0.4
     },
     {
       iconSrc: cloudIcon,
       title: "Cloud Computing",
-      description: "We help you to focus on your business and marketing. We make sure your infrastructure is running smoothly",
-      buttonText: "Manage your services",
-      buttonLink: "#manage",
+      description: "Streamline your business operations with our secure and scalable cloud solutions, ensuring efficiency and reliability",
+      buttonText: "Optimize your cloud",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 0.6
     },
     {
       iconSrc: itIcon,
       title: "IT Services",
-      description: "We help you to focus on your business and marketing. We make sure your infrastructure is running smoothly",
-      buttonText: "Manage your services",
-      buttonLink: "#manage",
+      description: " Let us handle your IT needs while you focus on growing your business. We provide seamless IT management and support",
+      buttonText: "Discover IT solutions",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 0.8
     },
     {
       iconSrc: consultingIcon,
       title: "Consultation",
-      description: "We help you to focus on your business and marketing. We make sure your infrastructure is running smoothly",
-      buttonText: "Manage your services",
-      buttonLink: "#manage",
+      description: "Get expert advice tailored to your unique business challenges. We help you find innovative solutions to achieve your goals",
+      buttonText: "Schedule a consultation",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 1.0
     },
     {
       iconSrc: mediaIcon,
       title: "Social Media Management",
-      description: "We help you to focus on your business and marketing. We make sure your infrastructure is running smoothly",
-      buttonText: "Manage your services",
-      buttonLink: "#manage",
+      description: "Expand your digital footprint with our strategic social media management services. Boost your visibility and engagement effectively",
+      buttonText: " Manage your social media",
+      mailto: "Techmakeeeasy0@gmail.com",
       delay: 1.2
     }
   ];

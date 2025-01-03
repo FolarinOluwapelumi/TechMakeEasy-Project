@@ -82,7 +82,7 @@ const BlogSection = () => {
         <div className="mt-12 flex flex-wrap gap-4 items-center">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button
-              href="/view-all-blogs"
+              to="/view-all-blogs"
               className="w-fit text-center border-2 border-black border-l-0 border-r-0 border-t-0 transition-colors duration-300"
             >
               View all blogs

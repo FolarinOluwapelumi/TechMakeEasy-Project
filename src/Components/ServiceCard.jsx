@@ -6,8 +6,8 @@ const ServiceCard = ({
   iconSrc,
   title,
   description,
+  mailto,
   buttonText,
-  buttonLink,
   delay = 0,
 }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,7 +61,7 @@ const ServiceCard = ({
       <p className="text-gray-700">{description}</p>
 
       <Button
-        href={buttonLink}
+        mailto={mailto}
         className="bg-purple-500 mt-4 transform hover:scale-105 transition-transform duration-300 border-2 border-gray-500 border-l-0 border-r-0 border-t-0"
       >
         {buttonText}
